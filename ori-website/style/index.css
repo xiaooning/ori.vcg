@@ -506,11 +506,13 @@
         font-family: 'futura_medium';
         font-size: 0.54rem;
         margin-top:.3rem;
+        font-weight: 600;
     }
     
     .profile .profile-left .profile-position {
         font-size: 0.4rem;
         font-family: 'futura_medium';
+        font-weight: 600;
     }
     
     .profile .profile-right {
@@ -520,6 +522,7 @@
         margin-left: 2.8rem;
         margin-right: 0.93rem;
         box-sizing: border-box;
+        font-weight: 600;
     }
     
     #offer {
@@ -688,7 +691,7 @@
     .offer-circle {
         /* float: right; */
         width: 0.25rem;
-        height: 0.23rem;
+        height: 0.25rem;
         border-radius: 50%;
         border: 1px solid #000;
         box-sizing: border-box;
@@ -751,6 +754,7 @@
         padding: 0.6rem;
         overflow: hidden;
         display: flex;
+        margin-top: 2.5rem;
     }
     
     #team .team-left {
@@ -770,6 +774,7 @@
     #team .team-right {
         box-sizing: border-box;
         margin-left: 3rem;
+        width:50%;
     }
     
     #team .team-right li {
@@ -2577,6 +2582,15 @@ border-bottom: 1px solid #000; */
         }
         #offer .section {
             display: flex;
+            flex-direction: column;
+            font-size: 0.33rem;
+            padding: 0;
+            padding-bottom: 0.5rem;
+            align-items: flex-start;
+            height: auto;
+        }
+        #offer .section1 {
+            /* display: flex; */
             flex-direction: column;
             font-size: 0.33rem;
             padding: 0;
